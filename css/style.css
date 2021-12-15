@@ -23,6 +23,8 @@ body {
 h2 {
   color: #4b5ebe;
   margin-top: unset;
+  display:flex;
+  justify-content: space-around;
 }
 
 .nav-link {
@@ -142,7 +144,9 @@ nav{
 .image-full-width {
   width: 100%;
 }
-
+.habilities-text{
+  justify-content: space-around;
+}
 .habilities,
 .projects{
   display:grid;
